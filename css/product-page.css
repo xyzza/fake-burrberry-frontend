@@ -1,1 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+}
 
+html {
+  font-family: 'Raleway';
+  font-size: 16px;
+  color: #171717;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
+}
+
+h1, h2 {
+  color: #111;
+}
+
+h1 {
+  font-family: 'Lora';
+	font-size: .8725rem;
+  padding-top: 1.5rem;
+  padding-left: 1rem;
+  padding-bottom: 1.5rem;
+  margin: 0;
+}
+
+h2 {
+  font-family: 'Raleway';
+  font-size: 1.125rem;
+  line-height: 1.3125rem;
+  text-transform: none;
+}
+
+#logo-product-page {
+	width: 138px;
+	height: 10px;
+	display: block;
+  padding: 1rem;
+  margin: auto;
+}
+
+#product-page-color-title {
+  font-size: .75rem;
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+
+#product-page-price-article {
+  font-size: .75rem;
+  padding-right: 0.25rem;
+  padding-top: 0.25rem;
+}
+
+
+.product-page-separator-wide {
+	border: solid 1px #c6c6c6;
+}
+
+.product-page-separator-shrinked {
+  border: solid 1px #c6c6c6;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.container-product-page-images {
+  display: flex;
+}
+
+.container-product-page-price {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 1rem 0;
+}
+
+.container-product-page-color {
+  padding: 1rem 1rem 1.80rem;
+}
+
+[class*="product-page-color-item"] {
+    margin-right: 0.75rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+}
+
+.product-page-color-item-active {
+    box-shadow: inset 0 0 0 1px #000;
+}
+
+.product-page-color-item-black {
+    background-color: #232122;
+}
+
+.product-page-color-item-honey {
+    background-color: #cfa880;
+}
+
+.container-product-page-buttons {
+  padding: 0 1rem;
+  margin-top: 2rem;
+}
+
+.button {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 15px;
+  border-radius: 2px;
+  box-shadow: inset 0 0 0 1px #000;
+  text-align: center;
+  font-family: 'Raleway';
+  font-size: .75rem;
+  background-color: #fff;
+}
+
+.button-black {
+  background-color: #171717;
+  color: #fff;
+  box-shadow: none;
+}
