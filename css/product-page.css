@@ -108,9 +108,6 @@ h1, h2, h3, h4, h5, h6 {
 
   margin-left: 1rem;
   margin-right: 1rem;
-
-  line-height: 0;
-  border-bottom: solid 1px #c6c6c6;
 }
 
 .button-product-size-select {
@@ -120,7 +117,7 @@ h1, h2, h3, h4, h5, h6 {
 
   font-family: 'Raleway';
   font-size: .75rem;
-  line-height: 1.17;
+  line-height: .875rem;
   color: #fff;
   text-align: center;
   border-radius: 2px;
@@ -137,7 +134,7 @@ h1, h2, h3, h4, h5, h6 {
 
   font-family: 'Raleway';
   font-size: .75rem;
-  line-height: 1.17;
+  line-height: .875rem;
   color: ##171717;
   text-align: center;
   border-radius: 2px;
@@ -147,51 +144,67 @@ h1, h2, h3, h4, h5, h6 {
 .button-product-size-help {
   font-family: 'Raleway';
   font-size: .75rem;
+  line-height: .875rem;
   color: #171717;
   text-align: center;
   background-color: #fff;
 }
 
-
-
-
-
-
-/*.container-product-page-buttons {
-  padding: 0 1rem;
-  margin-top: 2rem;
-  margin-bottom: 3rem;
-}*/
-
-/*.button-text {
-  font-family: 'Raleway';
-  font-size: .75rem;
-  background-color: #fff;
-}*/
-
-/*.button {
-  display: block;
-  box-sizing: border-box;
-  width: 100%;
-  margin-bottom: 1rem;
-  padding: 1rem;
-  box-shadow: inset 0 0 0 1px #000;
-  text-align: center;
+.about-product-container {
+  border-top: solid 1px #c6c6c6;
 }
 
-.button-black {
-  background-color: #171717;
-  color: #fff;
-  box-shadow: none;
-}*/
+.about-product-description {
+  display: flex;
+  justify-content: space-between;
 
+  margin-left: 1rem;
+  margin-right: 1rem;
 
-.container-product-page-menu-item{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.about-product-text {
+  font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 1rem;
+	font-weight: 500;
+	line-height: 19px;
+	color: #171717;
+}
+
+.about-product-description-expanded {
+  margin-left: 1rem;
+  margin-right: 1rem;
+
+  padding-bottom: 2rem;
+
+  font-family: 'Lora', serif;
+	font-size: .875rem;
+	line-height: 1.5rem;
+	color: #171717;
+  border-bottom: solid 1px #c6c6c6;
+}
+
+.about-product-shipping {
+  display: flex;
+  justify-content: space-between;
+
+  margin-left: 1rem;
+  margin-right: 1rem;
+
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+
+  border-bottom: solid 1px #c6c6c6;
+}
+
+/*.container-product-page-menu-item{
   display: flex;
   justify-content: space-between;
   padding: 1.875rem 1rem;
   border-bottom: solid 1px #c6c6c6;
-}
+}*/
 
 .container-product-page-menu-item-text {
   font-family: 'Raleway';
