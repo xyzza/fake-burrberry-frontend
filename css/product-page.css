@@ -50,7 +50,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .product-price {
-  /*font-family: 'Raleway','Helvetica Neue','Helvetica';*/
   font-family: 'Raleway', sans-serif;
   font-size: 1rem;
   line-height: 19px;
@@ -112,6 +111,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .button-product-size-select {
+  box-sizing: border-box;
   width: 100%;
   margin-bottom: 1rem;
   padding: 1rem;
@@ -129,6 +129,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .button-product-search {
+  box-sizing: border-box;
   width: 100%;
   padding: 1rem;
   margin-bottom: 1.5rem;
@@ -140,7 +141,6 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
   border-radius: 2px;
   border: solid 1px #999;
-  box-sizing: border-box;
 }
 
 .button-product-size-help {
