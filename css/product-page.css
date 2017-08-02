@@ -313,19 +313,21 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .localization-container {
+  display: block;
   font-family: 'Raleway', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
 	font-size: .75rem;
   font-weight: 400;
   text-decoration: none;
 	color: #999;
   background-color: inherit;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 
-.localization-lang,
 .localization-country {
   font-family: 'Raleway', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
 	font-size: .75rem;
+  line-height: 1rem;
+
   font-weight: 400;
   text-decoration: none;
 	color: #999;
@@ -334,7 +336,19 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 1rem;
 }
 
+.localization-lang {
+  font-family: 'Raleway', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+	font-size: .75rem;
+  line-height: 1.17;
+
+  font-weight: 400;
+  text-decoration: none;
+	color: #999;
+  background-color: inherit;
+}
+
 .contact-info-container {
+  line-height: 0;
   text-align: center;
 }
 
@@ -344,7 +358,7 @@ h1, h2, h3, h4, h5, h6 {
 
   font-family: 'Raleway', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
 	font-size: 1rem;
-  line-height: 19px;
+  line-height: 1.19;
 	font-weight: 700;
 	color: #171717;
 }
@@ -352,7 +366,7 @@ h1, h2, h3, h4, h5, h6 {
 .contact-info {
   font-family: 'Lora', serif;
 	font-size: .875rem;
-  line-height: 17px;
+  line-height: 1.21;
 	font-style: italic;
   text-decoration: none;
 	color: #171717;
