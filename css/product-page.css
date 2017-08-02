@@ -63,7 +63,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .product-article {
   font-size: .75rem;
-  line-height: 1rem;
+  line-height: 1.3333;
 }
 
 .product-color-title {
@@ -338,7 +338,7 @@ h1, h2, h3, h4, h5, h6 {
 .localization-lang {
   font-family: 'Raleway', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
 	font-size: .75rem;
-  line-height: 1.17;
+  line-height: 1rem;;
 
   font-weight: 400;
   text-decoration: none;
@@ -347,7 +347,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .contact-info-container {
-  line-height: 0;
   text-align: center;
 }
 
@@ -363,11 +362,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .contact-info {
+  display: block;
   font-family: 'Lora', serif;
 	font-size: .875rem;
-  line-height: 1.21;
+  line-height: 1.25;
 	font-style: italic;
-  text-decoration: none;
 	color: #171717;
-  margin-bottom: 1px;
 }
