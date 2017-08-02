@@ -64,7 +64,6 @@ h1, h2, h3, h4, h5, h6 {
 .product-article {
   font-size: .75rem;
   line-height: 1rem;
-  /*.875rem;*/
 }
 
 .product-color-title {
@@ -120,7 +119,7 @@ h1, h2, h3, h4, h5, h6 {
 
   font-family: 'Raleway', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
   font-size: .75rem;
-  line-height: 1.33;
+  line-height: .875rem;
   color: #fff;
   text-align: center;
   border-radius: 2px;
@@ -138,7 +137,7 @@ h1, h2, h3, h4, h5, h6 {
 
   font-family: 'Raleway', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
   font-size: .75rem;
-  line-height: 1.33;
+  line-height: .875rem;
   color: #171717;
   text-align: center;
   border-radius: 2px;
@@ -150,7 +149,7 @@ h1, h2, h3, h4, h5, h6 {
 .button-product-size-help {
   font-family: 'Raleway', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
   font-size: .75rem;
-  line-height: 1.33;
+  line-height: 1rem;
   color: #171717;
   text-align: center;
   background-color: #fff;
