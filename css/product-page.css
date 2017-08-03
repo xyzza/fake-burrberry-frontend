@@ -62,7 +62,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .product-article {
-  font-size: .75rem;
+  font-size: .76rem;
   line-height: 1.3333;
 }
 
@@ -179,6 +179,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .about-product-description-expanded {
+  box-sizing: border-box;
   padding-left: 1rem;
   padding-right: 1rem;
 
